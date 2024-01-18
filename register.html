@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+    <link rel="stylesheet" href="output.css" />
+
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="w-full h-screen bg-gradient-to-b from-black to-gray-800 flex items-center justify-center ">
+      <div>
+        <div class="flex flex-col gap-3">
+          <h1 class="text-white font-bold font-2xl text-center">Create An Account</h1>
+          <input type="text" placeholder="Enter your Username" class="w-full h-10 rounded-lg border-2 border-blue-800 outline-none  px-3 py-2">
+          <input type="Password" placeholder="Enter your Password" class="w-full h-10 rounded-lg border-2 border-blue-800 outline-none  px-3 py-2"/>
+          <input type="password" placeholder="Confirm your Password" class="w-full h-10 rounded-lg border-2 border-blue-800 outline-none  px-3 py-2"/>
+          <button class="text-white border-2 border-blue-800 rounded-lg font-bold hover:text-black hover:bg-yellow-800 duration-300 px-3 py-3">Register</button>
+
+          <div class="flex gap-3">
+          <h2 class="text-white">Already Member?</h2>
+          <a href="/index.html" class="text-blue-800">Login Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
